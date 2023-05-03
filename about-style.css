@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+	scroll-behavior:smoth;
+	
+}
+
+body {
+    color: white;
+    font-family: Nunito, sans-serif;
+    background-color: rgb(172, 172, 172);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 80px;
+    background-color: rgb(0, 0, 0,0.7);
+    padding-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid white;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.nav a:hover {
+    color: red;
+    transition: 0.6s;
+}
+
+.main {
+    background-color: rgb(73, 73, 73);
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 60px;
+    border-radius: 15px;
+    padding-top: 80px;
+    padding-left: 45px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.main p {
+    margin-top: 40px;
+    font-size: 22px;
+    width: 50%;
+    font-weight: 70;
+    margin-bottom: 4px;
+}
+
+.main h1 {
+    padding-bottom: 10px;
+}
+
+.main dl {
+    margin-bottom: 40px;
+}
+
+.main dl dt {
+    margin-top: 40px;
+    font-size: 28px;
+    width: 50%;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.main dl dd {
+    font-size: 22px;
+    margin-top: 17px;
+    width: 50%;
+    padding-left: 40px;
+    text-align: justify;
+}
+
+.main dl dd a {
+    color: rgb(67, 110, 253);
+    text-decoration: none;
+}
+
+.main dl dd a:hover {
+    transition: 0.4s;
+    color: rgb(125, 197, 255);
+    border-bottom: 1px solid;
+}
+
+.main dl ul li {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    margin-left: 80px;
+
+}
+
+.main dl ul li a {
+    text-decoration: none;
+    color: rgb(67, 110, 253);
+    width: 420px;
+}
+
+.main dl ul li a:hover {
+    transition: 0.4s;
+    color: rgb(125, 197, 255) !important;
+}
+
+.information {
+    background-color: rgb(23, 77, 194);
+    width: 60.7%;
+    margin-left: 43px;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.information h1 {
+    position: relative;
+    left: 20px;
+}
+
+.text-if {
+    background-color: rgb(43, 43, 43);
+    width: 99.5%;
+    margin-left: .25%;
+}
+
+.text-if ul li {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    margin-left: 80px;
+}
+
+.text-if ul li a {
+    text-decoration: none;
+    color: rgb(67, 110, 253);
+    width: 420px;
+}
+
+.text-if ul li a:hover {
+    transition: 0.4s;
+    color: rgb(125, 197, 255) !important;
+}
+
+.toop {
+    position: fixed;
+    bottom: 30px;
+    left: 96%;
+    background-color: rgb(136, 221, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.toop:hover {
+    background-color: rgba(59, 59, 59, 0.6);
+    color: red;
+    transition: .6s;
+    border: 0;
+}
+
+.end {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35%;
+}
+.end-button{
+    width: 50px;
+    height: 33px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 5px;
+    background-color:rgb(67, 110, 253);
+    border: 1px solid white;
+    cursor: pointer;
+    color:  white;
+    font-weight: bold;
+}
+.end-button:hover{
+    transition: 0.4s;
+    background-color: rgb(125, 197, 255) !important;
+}

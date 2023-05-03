@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 80px;
+    background-color: rgb(0, 0, 0,0.7);
+    padding-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid white;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.nav a:hover {
+    color: red;
+    transition: 0.6s;
+}
+body {
+    background: #fff;
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+div {
+    display: block;
+}
+
+.main{
+    margin-left: 27%;
+    width: 40%;
+    margin-top: 30px;
+}
+.main h1{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 36px;
+}
+.main h2{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 26px;
+}
+.main dl{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main ul li{
+    margin-left: 50px;
+}
+
+.end {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35%;
+}
+.end-button{
+    width: 50px;
+    height: 33px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 5px;
+    background-color:rgb(67, 110, 253);
+    border: 1px solid white;
+    cursor: pointer;
+    color:  white;
+    font-weight: bold;
+}
+.end-button:hover{
+    transition: 0.4s;
+    background-color: rgb(125, 197, 255) !important;
+}

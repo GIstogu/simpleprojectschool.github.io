@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4077c8;
+}
+
+.form {
+    width: 975px;
+    height: 565px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/form-v9.jpg);
+    border-radius: 18px;
+    margin-top: 7%;
+}
+
+.form h1 {
+    color: white;
+    padding-top: 80px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family: Nunito, sans-serif;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    padding-left: 25px;
+    font-weight: bold;
+    position: relative;
+    right: 22px;
+    top: 3px;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    padding-left: 25px;
+    font-weight: bold;
+    position: relative;
+    right: 22px;
+    top: 3px;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+    padding-left: 25px;
+    font-weight: bold;
+    position: relative;
+    right: 22px;
+    top: 3px;
+}
+
+#name {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 15px 140px 20px 30px;
+    border-color: white;
+    border-radius: 30px;
+    margin-left: 13%;
+    outline-width: 0;
+    outline: none;
+}
+
+
+#email {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 15px 140px 20px 30px;
+    border-color: white;
+    border-radius: 30px;
+    margin-right: 13%;
+    outline-width: 0;
+    outline: none;
+
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#password {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 15px 140px 20px 30px;
+    border-color: white;
+    border-radius: 30px;
+    margin-left: 13%;
+    outline-width: 0;
+    outline: none;
+}
+
+#Confirm-Password {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 15px 140px 20px 30px;
+    border-color: white;
+    border-radius: 30px;
+    margin-right: 13%;
+    outline-width: 0;
+    outline: none;
+}
+.button{
+    margin-top: 65px;
+    
+}
+#button{
+    height: 55px;
+    width: 190px;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: rgb(255, 70, 70);
+    color: white;
+    font-size: 18px;
+}
+
+#button:hover{
+    background-color: rgb(204, 58, 58);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 80px;
+    background-color: rgb(0, 0, 0,0.7);
+    padding-right: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid white;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.nav a:hover{
+    color: red;
+    transition: 0.6s;
+}
